@@ -1,0 +1,16 @@
+Workbook -> Representa todo o arquivo de planilha da excel (Extensões: .csv, .xlsx, .xls [versão antiga])
+
+Worksheet -> Representa as planilhas (também pode ser chamado de páginas) presentes no arquivo excel
+
+Cells -> as células presentes em cada planilha. Elas sempre serão representados pela junção de letras (representa a coluna) e número (representa a linha). Exemplo: célula A13
+
+Range -> Representa o conjunto de células selecionadas. 
+	Exemplos: 
+		* C3:G3 (a partir da célula C3 e vai até a célula G3) => Seleção do intervalo inteiro
+		* C3;G3 (o intervalo serão as células C3 e G3, pulando as células D3, E3 e F3) => Células específicas
+		* C3:G3;C4:G4 (Combinação de seleção de intervalos inteiro específicos)
+
+Cells Freezing -> Você pode congelar a linha, a coluna ou até mesmo os dois, permanecendo fixo as células que queria referenciar
+	Para congelar a célula pela coluna, adiciona o sifrão ($) antes da letra (Exemplo: $D4)
+	Para congelar a célula pela linha, adiciona o sifrão ($) Entre a letra e o número (Exemplo: D$4)
+	Para congelar a célula tanto pela linha quanto pela coluna, adiciona o sifrão ($) de acordo com o exemplo a seguir (Exemplo: $D$4)
